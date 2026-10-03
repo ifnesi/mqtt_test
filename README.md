@@ -1,5 +1,7 @@
 # mqtt_test
 
+> **This is a fork.** It preserves [sammiq/mqtt_test](https://github.com/sammiq/mqtt_test), whose original repository is no longer available, unchanged apart from this note, so the [Sagüin](https://github.com/ifnesi/saguin) project can keep running it. All credit belongs to the original author. Licensed under the GNU GPL v3, as before (see LICENSE).
+
 MQTT v5 broker compliance testing tool. Tests brokers (not client libraries) against the [MQTT v5.0 OASIS specification](https://docs.oasis-open.org/mqtt/mqtt/v5.0/os/mqtt-v5.0-os.html), reporting MUST, SHOULD, and MAY compliance levels.
 
 Uses a custom MQTT v5 packet codec — no external MQTT client library — giving full control over packet construction for edge-case and malformed-packet testing.
